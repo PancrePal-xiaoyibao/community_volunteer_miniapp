@@ -1,0 +1,11 @@
+[project]
+project_id = "your-project-id"
+
+[auth]
+site_url = "https://your-project-ref.supabase.co"
+
+[storage]
+max_file_size_mb = 50
+
+[edge_functions]
+max_duration_ms = 30000

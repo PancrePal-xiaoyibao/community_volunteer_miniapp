@@ -1,0 +1,15 @@
+{
+  "name": "volunteer-edge-functions",
+  "version": "1.0.0",
+  "description": "志愿者小程序 Edge Functions",
+  "scripts": {
+    "dev": "supabase start",
+    "deploy": "supabase functions deploy"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.38.0"
+  }
+}

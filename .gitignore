@@ -1,0 +1,58 @@
+# 微信小程序配置文件
+**/project.private.config.json
+
+# 环境变量文件
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+
+# 依赖包
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# 构建输出
+**/dist/
+**/build/
+**/*.tgz
+**/*.tar.gz
+
+# 日志文件
+**/logs/
+**/*.log
+
+# 开发工具
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+
+# 操作系统
+**/.DS_Store
+**/Thumbs.db
+
+# 压缩包
+**/*.zip
+**/*.rar
+
+# 微信开发者工具
+**/.unpackage/
+**/.project/
+
+# 缓存文件
+**/.cache/
+**/.temp/
+
+# 临时文件
+**/*.tmp
+**/*.temp
+
+# 大文件
+**/志愿者小程序开发.zip
