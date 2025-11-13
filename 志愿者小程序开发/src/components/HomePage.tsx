@@ -100,7 +100,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
               <div className="text-3xl mt-1">16</div>
             </div>
           </div>
-          <div className="bg-green-500 rounded-xl p-4 text-white">
+          <div className="bg-blue-500 rounded-xl p-4 text-white">
             <div className="flex flex-col items-center justify-center text-center">
               <UsersIcon className="w-12 h-12 opacity-90 mb-2" />
               <div className="text-sm opacity-90">家园人数</div>
@@ -133,7 +133,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
               <span className="text-xs text-center">“两岁“纪念</span>
             </button>
             <button className="flex flex-col items-center gap-2">
-              <div className="w-14 h-14 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center text-white shadow-lg">
+              <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center text-white shadow-lg">
                 <Gift className="w-7 h-7" />
               </div>
               <span className="text-xs text-center">培训宝库</span>

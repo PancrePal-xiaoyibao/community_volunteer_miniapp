@@ -141,10 +141,10 @@ export function PointsPage({ onNavigate }: PointsPageProps) {
             <div key={record.id} className="bg-white rounded-lg p-4 mb-3 flex items-center justify-between">
               <div className="flex items-start gap-3">
                 <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                  record.type === 'earned' ? 'bg-green-100' : 'bg-orange-100'
+                  record.type === 'earned' ? 'bg-blue-100' : 'bg-orange-100'
                 }`}>
                   {record.type === 'earned' ? (
-                    <TrendingUp className="w-5 h-5 text-green-600" />
+                    <TrendingUp className="w-5 h-5 text-blue-600" />
                   ) : (
                     <Gift className="w-5 h-5 text-orange-600" />
                   )}
@@ -158,7 +158,7 @@ export function PointsPage({ onNavigate }: PointsPageProps) {
                 </div>
               </div>
               <div className={`text-lg ${
-                record.type === 'earned' ? 'text-green-600' : 'text-orange-600'
+                record.type === 'earned' ? 'text-blue-600' : 'text-orange-600'
               }`}>
                 {record.points > 0 ? '+' : ''}{record.points}
               </div>
